@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredient_bg"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIC TAC TOE ONLINE"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/game_status_text"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:text="Game Not Started"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textColor="#009688"
+        android:letterSpacing="0.04"
+        />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/tictactoe_btn"
+        android:columnCount="3"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:background="@drawable/tictactoe_btn"
+            android:tag="0"
+            android:id="@+id/btn_0"
+            android:text="X"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/tictactoe_btn"
+            android:textSize="60sp"
+            android:tag="1"
+            android:id="@+id/btn_1"
+            android:text="X"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/tictactoe_btn"
+            android:textSize="60sp"
+            android:tag="2"
+            android:id="@+id/btn_2"
+            android:text="X"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/tictactoe_btn"
+            android:textSize="60sp"
+            android:tag="3"
+            android:id="@+id/btn_3"
+            android:text="X"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/tictactoe_btn"
+            android:textSize="60sp"
+            android:tag="4"
+            android:id="@+id/btn_4"
+            android:text="X"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/tictactoe_btn"
+            android:textSize="60sp"
+            android:tag="5"
+            android:id="@+id/btn_5"
+            android:text="X"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:background="@drawable/tictactoe_btn"
+            android:tag="6"
+            android:id="@+id/btn_6"
+            android:text="X"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/tictactoe_btn"
+            android:textSize="60sp"
+            android:tag="7"
+            android:id="@+id/btn_7"
+            android:text="X"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tictactoe_btn"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="8"
+            android:id="@+id/btn_8"
+            android:text="X"/>
+
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_bkg"
+        android:text="START THE GAME"
+        android:id="@+id/start_game_btn"/>
+
+
+</LinearLayout>
